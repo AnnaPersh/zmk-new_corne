@@ -39,6 +39,7 @@
 
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
+            display-name = "Layers Toggle"
             #binding-cells = <0>;
             tapping-term-ms = <100>;
             bindings = <&sl 1 >, <&sl 2>, <&sl 0>;
@@ -90,7 +91,7 @@
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "NUM-SYM";
             bindings = <
 &trans  &kp DOLLAR  &kp EXCLAMATION  &kp ASTERISK  &kp CARET    &kp LEFT_BRACKET                                    &mmv MOVE_UP                     &kp RIGHT_BRACKET      &kp N7        &kp N8        &kp N9        &kp N0                &kp BSPC
 &trans  &kp HASH    &kp MINUS        &kp SLASH     &kp PLUS     &kp LEFT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NON_US_BACKSLASH  &kp CAPS
@@ -102,7 +103,7 @@
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "FN-UTIL";
             bindings = <
 &trans  &bt BT_CLR_ALL  &bt BT_PRV       &bt BT_NXT       &bt BT_SEL 0     &bt BT_SEL 1                               &mmv MOVE_UP                     &kp F1    &kp F2        &kp F3          &kp F4     &kp F9     &kp F10
 &trans  &out OUT_TOG    &mkp LCLK        &mkp MCLK        &mkp RCLK        &rgb_ug RGB_TOG            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F5    &kp F6        &kp F7          &kp F8     &kp F11    &kp F12
