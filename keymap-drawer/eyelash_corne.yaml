@@ -131,9 +131,9 @@ layers:
   - $$mdi:bluetooth-off$$
   - RGB EFF
   - RGB EFR
-  - RGB BRD
-  - RGB BRD
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUI
+  - RGB HUD
+  - RGB OFF
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
