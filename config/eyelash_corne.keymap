@@ -40,7 +40,7 @@
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
 
-            display-name = "Layers Toggle"
+            display-name = "Layers Toggle";
             #binding-cells = <0>;
             tapping-term-ms = <100>;
             bindings = <&sl 1 >, <&sl 2>, <&sl 0>;
