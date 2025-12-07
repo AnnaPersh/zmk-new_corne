@@ -102,8 +102,8 @@
 &trans  &kp DOLLAR  &kp EXCLAMATION  &kp ASTERISK  &kp CARET    &kp LEFT_BRACKET                                    &mmv MOVE_UP                     &kp RIGHT_BRACKET      &kp N7        &kp N8        &kp N9        &kp N0                &kp BSPC
 &trans  &kp HASH    &kp MINUS        &kp SLASH     &kp PLUS     &kp LEFT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NON_US_BACKSLASH  &kp CAPS
 &trans  &kp AT      &kp GRAVE        &kp TILDE     &kp PERCENT  &kp EQUAL             &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDERSCORE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp END               &trans
-                                     &kp AMPS      &trans       &kp SPACE                                                                               &trans                 &trans        &trans
-            >;
+                                     &kp AMPS      &trans       &trans                                                                               &trans                 &trans        &trans
+            >; 
 
             sensor-bindings = <&scroll_encoder>;
         };
