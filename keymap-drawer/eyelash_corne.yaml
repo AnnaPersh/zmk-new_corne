@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - '&td1'
   - $$mdi:apple-keyboard-option$$
-  - {t: LGUI, h: SYMBOL}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: LGUI, h: FN-UTIL}
+  - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
+  - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
+  - {t: '$$mdi:keyboard-return$$', h: FN-UTIL}
   - $$mdi:keyboard-esc$$
-  NUMBER:
+  NUM-SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - $
   - '!'
@@ -98,7 +98,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  FN-UTIL:
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
