@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&td1'
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-esc$$', h: FN-UTIL}
+  - '&td1'
   NUM-SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - $
@@ -146,11 +146,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [3, 15]
+- p: [16, 17]
   k: {t: QWERTY, h: toggle}
-- p: [3, 4]
+- p: [15, 16]
   k: {t: FN-UTIL, h: toggle}
