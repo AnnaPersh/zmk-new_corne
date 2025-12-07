@@ -45,7 +45,7 @@ layers:
   - '&td1'
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - '&lt1 SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-esc$$', h: FN-UTIL}
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
