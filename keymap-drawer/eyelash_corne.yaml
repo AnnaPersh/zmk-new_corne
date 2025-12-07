@@ -4,7 +4,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - {t: E, type: held}
+  - E
   - R
   - T
   - $$mdi:arrow-up-bold$$
@@ -14,11 +14,11 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - A
-  - {t: S, type: held}
+  - S
   - D
-  - {t: F, type: held}
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -44,11 +44,11 @@ layers:
   - {t: /, s: '?'}
   - '&td1'
   - $$mdi:apple-keyboard-option$$
-  - {t: LGUI, h: FN-UTIL}
-  - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
-  - {t: '$$mdi:keyboard-space$$', h: NUM-SYM}
-  - {t: '$$mdi:keyboard-return$$', h: FN-UTIL}
-  - $$mdi:keyboard-esc$$
+  - LGUI
+  - '&lt1 SPACE'
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-esc$$', h: FN-UTIL}
   NUM-SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - $
@@ -67,7 +67,7 @@ layers:
   - '#'
   - {t: '-', s: _}
   - {t: /, s: '?'}
-  - {t: '=', s: +}
+  - +
   - (
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -83,7 +83,7 @@ layers:
   - {t: '`', s: '~'}
   - '~'
   - '%'
-  - $$mdi:keyboard-space$$
+  - {t: '=', s: +}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FN-UTIL:
@@ -142,13 +142,15 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
 - p: [3, 15, 17]
-  k: {t: QWERTY, h: '$$mdi:gesture-tap-hold$$'}
+  k: {t: QWERTY, h: toggle}
+- p: [3, 4]
+  k: {t: FN-UTIL, h: toggle}
