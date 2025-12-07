@@ -72,7 +72,7 @@
         base_layer {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <& 0>;
+            bindings = <&to 0>;
         };
         to_layer_2 {
             timeout-ms = <50>;
@@ -88,8 +88,8 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp T                               &kp UP                &kp Y        &kp U        &kp I      &kp O    &kp P     &kp BSPC
 &sk LCTRL  &kp A  &kp S  &kp D     &kp F       &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&sk LSHFT  &kp Z  &kp X  &kp C     &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH  &td1
-                         &kp LALT  &kp LGUI    &lt 1 SPACE                                               &kp SPACE    &kp ENTER    &kp ESC
+&sk LSHFT  &kp Z  &kp X  &kp C     &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LALT  &kp LGUI    &lt 1 SPACE                                               &kp SPACE    &kp ENTER    &td1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
