@@ -552,12 +552,10 @@ rect.held, rect.combo.held {
 <text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M196,70 l-39,14" class="combo"/>
-<path d="M196,70 l39,14" class="combo"/>
-<rect rx="6" ry="6" x="182" y="57" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="154" y="46" width="28" height="26" class="combo"/>
 <a href="#QWERTY">
-<text x="196" y="70" class="combo tap layer-activator">QWERTY</text>
-</a><text x="196" y="81" class="combo hold">toggle</text>
+<text x="168" y="59" class="combo tap layer-activator">QWERTY</text>
+</a><text x="168" y="70" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -831,12 +829,10 @@ rect.held, rect.combo.held {
 <text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M196,70 l-39,14" class="combo"/>
-<path d="M196,70 l39,14" class="combo"/>
-<rect rx="6" ry="6" x="182" y="57" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="154" y="46" width="28" height="26" class="combo"/>
 <a href="#QWERTY">
-<text x="196" y="70" class="combo tap layer-activator">QWERTY</text>
-</a><text x="196" y="81" class="combo hold">toggle</text>
+<text x="168" y="59" class="combo tap layer-activator">QWERTY</text>
+</a><text x="168" y="70" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
@@ -1119,12 +1115,10 @@ rect.held, rect.combo.held {
 <text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M196,70 l-39,14" class="combo"/>
-<path d="M196,70 l39,14" class="combo"/>
-<rect rx="6" ry="6" x="182" y="57" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="154" y="46" width="28" height="26" class="combo"/>
 <a href="#QWERTY">
-<text x="196" y="70" class="combo tap layer-activator">QWERTY</text>
-</a><text x="196" y="81" class="combo hold">toggle</text>
+<text x="168" y="59" class="combo tap layer-activator">QWERTY</text>
+</a><text x="168" y="70" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
