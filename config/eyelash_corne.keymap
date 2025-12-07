@@ -77,7 +77,7 @@
         to_layer_2 {
             timeout-ms = <50>;
             key-positions = <3 4>;
-            bindings = <>;
+            bindings = <&to 2>;
         };
     };
 
