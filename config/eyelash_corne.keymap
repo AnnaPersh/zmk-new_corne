@@ -39,8 +39,11 @@
 
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
+
             display-name = "Layers Toggle"
-            #binding-cells = <0>;
+            #
+
+            binding-cells = <0>;
             tapping-term-ms = <100>;
             bindings = <&sl 1 >, <&sl 2>, <&sl 0>;
         };
@@ -105,13 +108,13 @@
         raise_layer {
             display-name = "FN-UTIL";
             bindings = <
-&trans  &bt BT_CLR_ALL  &bt BT_PRV       &bt BT_NXT       &bt BT_SEL 0     &bt BT_SEL 1                               &mmv MOVE_UP                     &kp F1    &kp F2        &kp F3          &kp F4     &kp F9     &kp F10
-&trans  &out OUT_TOG    &mkp LCLK        &mkp MCLK        &mkp RCLK        &rgb_ug RGB_TOG            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F5    &kp F6        &kp F7          &kp F8     &kp F11    &kp F12
-&trans  &bt BT_CLR      &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_BRD  &trans                    &mmv MOVE_DOWN                   &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER  &trans
-                                         &trans           &trans           &trans                                                                      &trans    &trans        &trans
+&trans  &bt BT_CLR_ALL  &bt BT_PRV       &bt BT_NXT       &bt BT_SEL 0     &bt BT_SEL 1                                        &mmv MOVE_UP                     &kp F1    &kp F2        &kp F3          &kp F4     &kp F9     &kp F10
+&trans  &out OUT_TOG    &mkp LCLK        &mkp MCLK        &mkp RCLK        &rgb_ug RGB_TOG                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F5    &kp F6        &kp F7          &kp F8     &kp F11    &kp F12
+&trans  &bt BT_CLR      &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_OFF                    &mmv MOVE_DOWN                   &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER  &trans
+                                         &trans           &trans           &trans                                                                               &trans    &trans        &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 };
